@@ -81,7 +81,7 @@ body.looper #logo{
     padding: 37px 50px 736px 50px;
     width:calc(100% - 15%);
     float:left;
-    height: 80vh;
+    height: 100vh;
     position: fixed;
     right: 0;
     /*width: auto;*/
@@ -237,7 +237,7 @@ section.showMe{
 
 #timerPanel,
 #looperPanel{
-    width: calc(100% - 15%);
+    width: 100%; /*calc(100% - 15%);*/
     height:172px;
     position: absolute;
     bottom:0;
